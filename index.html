@@ -1,0 +1,109 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para Minha Coelhinha</title>
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+ <header>
+  <div style="display: flex; align-items: center; justify-content: center; gap: 20px;">
+    <img src="logo2.svg" alt="Logo" style="width: 50px; height: 50px;">
+    <span>Para Minha Coelhinha 💖</span>
+  </div>
+
+</header>
+
+  <div class="audio-controls">
+    <audio id="bgMusic" loop autoplay>
+      <source src="audio.mp3" type="audio/mpeg" />
+      Seu navegador não suporta áudio.
+    </audio>
+    <button onclick="togglePlay()">▶️ Pausar/Continuar Música</button>
+  </div>
+
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <!-- Slides com imagens e frases -->
+      <!-- Exemplo de slide abaixo -->
+      <div class="swiper-slide">
+        <img src="imagem1.jpeg" alt="Imagem 1" />
+        <p>Coelhinha linda, você pulou direto pro meu coração.</p>
+      </div>
+        <div class="swiper-slide">
+        <img src="imagem2.jpeg" alt="Imagem 1" />
+        <p>Desde que você chegou, minha vida é mais doce.</p>
+      </div>
+        <div class="swiper-slide">
+        <img src="imagem3.jpeg" alt="Imagem 1" />
+        <p>Seus olhos brilham mais que qualquer luar.</p>
+      </div>
+        <div class="swiper-slide">
+        <img src="imagem4.jpeg" alt="Imagem 1" />
+        <p>Te amar é como viver um sonho bom todos os dias.</p>
+      </div>
+        <div class="swiper-slide">
+        <img src="imagem5.jpeg" alt="Imagem 1" />
+        <p>Você é meu chamego, meu denguinho favorito.</p>
+      </div>
+        <div class="swiper-slide">
+        <img src="imagem6.jpeg" alt="Imagem 1" />
+        <p>Com você, até os dias nublados têm sol.</p>
+      </div>
+        <div class="swiper-slide">
+        <img src="imagem7.jpeg" alt="Imagem 1" />
+        <p>Meu coração bate no ritmo do seu sorriso.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem8.jpeg" alt="Imagem 1" />
+        <p>Não preciso de mágica, só de você ao meu lado.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem9.jpeg" alt="Imagem 1" />
+        <p>Seu jeitinho me encanta mais a cada dia.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem10.jpeg" alt="Imagem 1" />
+        <p>Você é meu amorzinho, meu abracinho preferido.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem11.jpeg" alt="Imagem 1" />
+        <p>Nos teus beijos, encontrei meu lar.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem12.jpeg" alt="Imagem 1" />
+        <p>A cada pulo seu, meu amor cresce mais.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem13.jpeg" alt="Imagem 1" />
+        <p>Se eu pudesse, te embalava no colo todo dia.</p>
+      </div>
+              <div class="swiper-slide">
+        <img src="imagem14.jpeg" alt="Imagem 1" />
+        <p>Com você, meu mundo ficou mais cor-de-rosa.</p>
+      </div>
+      <!-- Repita para imagem2.jpg até imagem14.jpg -->
+    </div>
+  </div>
+
+  <div class="hearts">
+    <div class="heart" style="left:10%; animation-delay: 0s;"></div>
+    <div class="heart" style="left:30%; animation-delay: 2s;"></div>
+    <div class="heart" style="left:50%; animation-delay: 4s;"></div>
+    <div class="heart" style="left:70%; animation-delay: 6s;"></div>
+    <div class="heart" style="left:90%; animation-delay: 8s;"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+<footer style="text-align: center; padding: 20px; color: white; font-size: 0.9em;">
+  Bascope Inc © 2025
+</footer>
+</html>
